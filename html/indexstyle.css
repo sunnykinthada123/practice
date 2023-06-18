@@ -1,0 +1,43 @@
+
+body{
+    background-color: darksalmon;
+}
+.firstdiv{
+    background-color: aqua;
+    display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+.parentdiv{  
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.detaildiv{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.detaildiv input[type='text']{
+    padding: 10px;
+    margin-top: 5px;
+    width: 600px;
+}
+button{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background-color:limegreen;
+    font-family:Courier New;
+}
+label{
+    font-family:verdana;
+    font-size:140%
+}
+.remember{
+    font-family:Courier New;
+}
